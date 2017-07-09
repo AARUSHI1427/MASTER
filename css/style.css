@@ -1,0 +1,60 @@
+.noPadding{
+	padding : 0;
+} 
+body{
+	background: #e6e6e6;
+}
+.container{
+	background: white;
+}
+.single-item{
+	margin-top:10px;
+	margin-bottom:20px;
+	height:320px;
+	border:solid 1px black;
+	box-shadow: black;
+}
+.top{
+	background:maroon;
+	height:200px;
+	
+    }
+    .top img{
+	  width:100%;
+	 height: 100%;
+	
+            }
+.bottom{
+	
+	height:100px;
+}
+.item-title{
+    color: maroon;
+	margin-top:0;
+	margin-left:10px;
+	padding-top:10px;
+}
+.reduced-price{
+	font-size:20px;
+	margin-right:10px;
+}
+.discounted-price{
+	color:maroon;
+	font-size:20px;
+	margin-right:10px;
+	font-style:italic;
+}
+
+.list-group{}
+.list-group .list-group-item{
+	font-size:20px;
+	border-right:0;
+	border-left: 0;
+	padding: 30px 0 30px 0;
+}
+.list-group .list-group-item:hover{
+	background: #e6ffee;
+}
+.panel{
+	border-radius:0;
+}
